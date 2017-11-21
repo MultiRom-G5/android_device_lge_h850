@@ -83,3 +83,6 @@ TW_EXTRA_LANGUAGES := true
 
 # Debug flags
 TWRP_INCLUDE_LOGCAT := true
+
+# Include MultiRom Boardconfig values
+include device/lge/h850/multirom/MultiRomBoardConfig.mk
